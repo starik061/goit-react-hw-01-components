@@ -6,7 +6,7 @@ width: calc(${data.length}*73px);
 min-width: 375px;
 min-height: 100px;
 padding-top: 32px;
-margin: 0 auto;
+margin: 0 auto 15px;
 border: 1px solid rgb(224, 224, 224);
 border-radius: 5px;`
 

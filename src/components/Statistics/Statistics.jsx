@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { StatisticsSection,StatisticsTitle, StatisticsList, StatisticsListItem } from "./Statistics.styled"
 
-const Statistics = ({ title, stats }) => {
+export const Statistics = ({ title, stats }) => {
     return <StatisticsSection>
       {title ? (<StatisticsTitle>{title}</StatisticsTitle>): undefined }
   <StatisticsList>
@@ -25,9 +25,6 @@ function randomColor() {
 Statistics.propTypes = {
     title: PropTypes.string,
     stats: PropTypes.arrayOf(PropTypes.object).isRequired
-    
-    
-}
+  }
 
-export default Statistics;
-
+ 
