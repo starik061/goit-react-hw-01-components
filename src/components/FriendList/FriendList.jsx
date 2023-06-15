@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { FriendCard, FriendStatus } from "./FriendList.styled"
 
-export function FriendList({ friends }) {
+export const FriendList= ({ friends })=> {
     return <ul className="friend-list" style={{ margin: " 0 auto"}}>
         {friends.map(({id, avatar, name, isOnline }) => {
             return (
